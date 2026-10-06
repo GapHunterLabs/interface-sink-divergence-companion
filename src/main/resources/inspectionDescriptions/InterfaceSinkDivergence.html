@@ -1,0 +1,10 @@
+<html>
+<body>
+Reports a call through an interface-typed reference that passes untrusted HTTP input when some implementations of
+the method log that input unsanitized and at least one other never does.
+<!-- tooltip end -->
+<p>Which behavior runs depends on the implementation that dependency injection supplies, so log injection or
+sensitive data in logs (CWE-117, CWE-532) can appear with only some of them. Every concrete implementation in the
+project is resolved and analyzed.</p>
+</body>
+</html>
